@@ -133,8 +133,8 @@ def minimumSwaps(arr):
     ans = 0
     for i in range(n):
 
-        # alreadt swapped or
-        # alreadt present at
+        # already swapped or
+        # already present at
         # correct position
         if vis[i] or arrpos[i][0] == i:
             continue
